@@ -18,7 +18,6 @@ header{
 
 /* Header */
 .cont-header{
-    background-color: orangered;
     width: 100%;
     height: 70px;
 }
@@ -91,7 +90,6 @@ header{
     font-size: small;
 }
 
-
 .box .show{
     display: block;
 }
@@ -117,7 +115,31 @@ header{
 }
 
 /* Footer */
+.cont-footer{
+    width: 100%;
+}
+.row-footer{
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.srl{
+    font-size: larger;
+}
+
+.col-footer div a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.col-footer i{
+    cursor: pointer;
+}
 
 /* reusable class */
 .relative{
@@ -144,8 +166,16 @@ header{
     font-size: small;
 }
 
+.f-medium{
+    font-size: medium;
+}
+
 .padding-5{
     padding: 5px 10px;
+}
+
+.pad-10{
+    padding: 10px 0;
 }
 
 .crossed{
@@ -153,10 +183,16 @@ header{
 }
 
 /* Background color */
-
+.bg-black{
+    background-color: rgb(35,39,42);
+}
 .bg-red{
     background-color: red;
 }
 .eco{
     background-color: green;
+}
+
+.bg-orange{
+    background-color: orangered;
 }

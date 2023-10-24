@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+
+
+/* Main */
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-main{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.box{
+    width: calc(100% / 3 - 20px);
+}
+
+.box img{
+    width: 100%;
+}
+
+/* Items Main */
+.heart{
+    background-color: white;
+    top: 10px;
+    right: 0;
+    padding: 0 10px;
+    font-size: 2.5em;
+}
+
+.discount{
+    bottom: 100px;
+}
+
+.brand{
+    font-size: small;
+}
+
+
+.box .show{
+    display: block;
+}
+
+.box .hidden{
+    display: none;
+}
+
+.box:hover .show{
+    display: none;
+}
+
+.box:hover .hidden{
+    display: block;
+}
+
+.box:hover .heart{
+    color: red;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+/* reusable class */
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-white{
+    color: white;
+}
+
+.f-weight{
+    font-weight: 600;
+}
+
+.f-small{
+    font-size: small;
+}
+
+.padding-5{
+    padding: 5px 10px;
+}
+
+.crossed{
+    text-decoration-line: line-through;
+}
+
+/* Background color */
+
+.bg-red{
+    background-color: red;
+}
+.eco{
+    background-color: green;
+}
